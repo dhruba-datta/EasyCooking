@@ -65,16 +65,16 @@
         <!-- code for about us section -->
         <form class="form-inline my-2 my-lg-0">
           <!-- how to link section of same page -->
-          <a class="nav-link navpad btn-outline-info" style="padding-left: 10px;" href="#aboutus"
+          <!-- <a class="nav-link navpad btn-outline-info" style="padding-left: 10px;" href="#aboutus"
             >Contact Me <span class="sr-only">(current)</span></a>
-          </form>
+          </form> -->
       </div>
     </nav>
    
     <!-- code -->
     <main role="main">
 <!-- home img -->
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- <div id="myCarousel" class="carousel slide " data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -90,9 +90,7 @@
     
             <div class="container">
               <div class="carousel-caption text-left">
-                <!-- <h1>Example headline.</h1>
-                <p>Some representative placeholder content for the first slide of the carousel.</p>
-                 -->
+               
               </div>
             </div>
           </div>
@@ -104,10 +102,8 @@
           />
             <div class="container">
               <div class="carousel-caption">
-                <!-- <h1>Another example headline.</h1>
-                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                 -->
-        
+              
+              </div>
             </div>
           </div>
           <div class="carousel-item">
@@ -118,9 +114,7 @@
           />
             <div class="container">
               <div class="carousel-caption text-right">
-                <!-- <h1>One more for good measure.</h1>
-                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                -->
+        
               </div>
             </div>
           </div>
@@ -134,14 +128,43 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-    
-    <!-- heading text -->
+     -->
+   
+     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+       <div class="carousel-inner">
+         <div id="banner-one" class="carousel-item active">
+           <img class=" w-100  desk-img" style="height: auto; width: auto;" src="images/home1.jpg" alt="First slide">
+           <img class="mobile-img" style="height: 100%; width: auto;" src="images/a1.jpg" alt="First slide">
+         </div>
+         <div id="banner-two" class="carousel-item">
+          <img class=" w-100  desk-img" style="height: auto; width: auto;" src="images/home2.jpg" alt="Second slide">
+          <img class="mobile-img" style="height: 100%; width: auto;" src="images/a2.jpg" alt="First slide">
+         </div>
+         <div id="banner-three" class="carousel-item">
+          <img class=" w-100  desk-img" style="height: auto; width: auto;" src="images/home3.jpg" alt="Third slide">
+          <img class="mobile-img" style="height: 100%; width: auto;" src="images/a3.jpg" alt="First slide">
+         </div>
+       </div>
+       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+       </a>
+       <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+       </a>
+     </div>
+   
+     <!-- heading text -->
     <div class=" text-center">
       <!-- <div class="card-body"> -->
         <h1 class="h1 card-title  text-info font-weight-bolder text">"Easy<span class="  h1 card-title text-danger font-weight-bolder text">Cooking"</span></h1>
        
         <h4 class="h4 card-text font-italic" style="padding-right:40px; padding-left: 40px;">
-          You wanna explore your cooking methods? Well then this is a perfect website for you!!!<br> 
+          You wanna explore your cooking methods?<br> Well then this is a perfect website for you! 
           Discover numerous recipes and cooking videos based on authentic Bengali, Indian and Chinese Cuisine all in one site.<br>  You can choose your recipe by watching different videos and also can buy the items you need from the shop now button on nevigtion.</h4>
         <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
       </div>
@@ -247,8 +270,12 @@
     <!-- code for about us section -->
     <div id="aboutus" class="card mb-3" style="max-width: 540px">
       <div class="row no-gutters">
-        <div class="col-md-4"><img src="images/me.jpg" width="105%" height="100%" alt="Image Sample" /></div>
+        <div class="col-md-4  desk-img"><img src="images/me.jpg" width="100%" height="100%" alt="Image Sample" /></div>
         <div class="col-md-8">
+
+          <img class=" w-100  mobile-img rounded-circle" src="images/me2.jpg" alt="First slide">
+
+          
           <div class="card-body">
             <h5 class="card-title">About Myself</h5>
             <p class="card-text">
@@ -267,14 +294,14 @@
     </div>
 
     <div class="footer-basic">
-      <footer>
+      <footer class="text-center">
 
           <ul class="list-inline">
-              <li class="list-inline-item"><a href="mailto:dhrubadattaanjan@gmail.com"target="_blank">Email</a></li>
+              <li class="list-inline-item anjan"><a href="mailto:dhrubadattaanjan@gmail.com"target="_blank">Email</a></li>
               <li class="list-inline-item"><a href="https://www.linkedin.com/in/dhruba-datta/"target="_blank">LinkedIn</a></li>
-
+              <!-- <li class="list-inline-item"><a href="#aboutus">About</a></li> -->
               <li class="list-inline-item"><a href="https://github.com/dhruba-datta"target="_blank">GitHub</a></li>
-              <li class="list-inline-item"><a href="https://www.youtube.com/DhrubaDattaAnjan"target="_blank">Youtube</a></li>
+              <li class="list-inline-item"><a href="https://www.youtube.com/DhrubaDattaAnjan"target="_blank">YouTube</a></li>
           </ul>
           <p class="copyright">EasyCooking © 2021 || by Dhruba Datta</p>
       </footer>
