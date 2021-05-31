@@ -1,0 +1,69 @@
+
+.cardbox{
+    width: 100%;
+}
+
+.navpad{
+    padding-left: 0px;
+}
+.txt{
+    text-align: center; 
+}
+.pic{
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.h1{
+    background-color: rgba(1, 255, 255, 0.295);
+    padding-bottom:5px ;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+.para{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.jumbotron{
+    margin-bottom: 0px;
+    background-color: transparent;
+    padding-bottom: 0px;
+}
+.box{
+    margin: 60px;
+}
+.box .col{
+    display: none;
+}
+
+.overflow{
+    height: 135px;
+    overflow: auto !important;
+}
+.btn1, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn8   {
+    padding: .7rem 2rem;
+    background: royalblue;
+    /* border: none; */
+    border-color: royalblue;
+    color: #FFF;
+    margin: 20px auto;
+    display: block;
+    font-size: 1.3rem;
+    cursor: pointer;
+    outline: none;
+    transition: .3s;
+}
+.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover, .btn6:hover, .btn7:hover, .btn8:hover {
+    color: royalblue;
+    background-color: #FFF;
+    font-weight: bold;
+    border-color: royalblue;
+
+}
+.navbar-nav .nav-link {
+    padding-right: 0;
+    /* padding-left: 0; */
+}
