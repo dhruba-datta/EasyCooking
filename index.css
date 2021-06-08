@@ -185,3 +185,12 @@ element.style {
   padding-right: 10px;
   padding-left: 10px;
 }
+
+
+.copyright a{
+  color:rgb(170, 170, 170);
+}
+.copyright a:hover{
+  text-decoration: none;
+  color:rgba(11, 95, 221, 0.774);
+}
